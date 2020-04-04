@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurek-client" />
+        <module name="eurek-server" />
+        <module name="consumer-ribbon" />
+        <module name="com_image_spring_cloud" />
+        <module name="consumer-feign" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com_image_spring_cloud" options="-parameters" />
+      <module name="consumer-feign" options="-parameters" />
+      <module name="consumer-ribbon" options="-parameters" />
+      <module name="eurek-client" options="-parameters" />
+      <module name="eurek-server" options="-parameters" />
+    </option>
+  </component>
+</project>
